@@ -1,0 +1,31 @@
+Program Info:
+
+Abstract:
+ - cryptoBalance will allow users to enter their crypto assets and it will return the balance of their
+assets by comparing the current value of the assets compared to the initial value of the assets.
+
+Some features of this program:
+ - repeatedly asks user to enter a cryptocurrency until user enters "quit" or requests the balance of assets
+ - if user enters "find balance" when prompted for another crypto, the balance of the portfolio will be printed
+ - after inputting information for each crypto asset, a dictionary of the cryptocurrency (dictionary keys) and gains/losses(dictionary values) will be printed out
+
+Sample inputs for cryptoBalance:
+ - cryptoBalance: "Welcome to cryptoBalance! Please enter a cryptocurrency:"
+  - User: "bitcoin"
+ - cryptoBalance: "At what price in USD did you purchase this cryptocurrency?"
+  - User: "2567.80"
+ - cryptoBalance: "How many coin did you purchase?"
+  - User: "1.4"
+ - cryptoBalance: "Please enter a cryptocurrency:"
+  - User: "find balance" ––– this will return the value of your cryptocurrency assets and terminate the program
+
+Notes:
+ - do not enter any spaces before your inputs
+ - you need not use quotation marks when inputing data
+ - you do not need to input "$" when asked for price – only the numerical value
+ - if you purchased less than one coin, input the amount using a decimal
+ - cryptocurrency inputs are not case sensitive ("litecoin" = "LITECOIN" = "Litecoin")
+ - entering an invalid input will terminate the program
+
+Notes for grader:
+ - Professor Oney said I do not need a cache file in my program because the info provided without one will be more accurate/up to date. The code for the cache file is still there, but I used it only for tests.
